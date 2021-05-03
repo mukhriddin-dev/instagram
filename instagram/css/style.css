@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(167, 167, 167);
+    margin-top: 0;
+}
+
+@font-face {
+    font-family: insta;
+    src: url(../font/VeganStylePersonalUse-5Y58.ttf);
+}
+
+@font-face {
+    font-family: insta2;
+    src: url(../font/Amsterdam-ZVGqm.ttf);
+}
+
+.row {
+    width: 480px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+/* navbar boshi  */
+.navbar {
+    display: flexbox;
+    width: 480px;
+    height: 70px;
+    /* border-bottom: solid 1px black; */
+    padding-top: 0;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul li .Instagram-font {
+    display: inline;
+    padding-left: 20px;
+    font-family: insta2;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul li:nth-child(2) {
+    float: right;
+    margin-top: 15px;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar ul li .fab {
+    font-size: x-large;
+    padding-right: 22px;
+    position: sticky;
+    top: 0;
+}
+
+/* navbar tugadi */
+
+
+/* stirylar */
+
+.container {
+    width: 480px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.container ul {
+    position: relative;
+    display: flex;
+    padding-left: 4px;
+    list-style-type: none;
+}
+
+
+/*  */
+
+
+.container ul .story {
+    margin: 6px;
+    border: solid 2px rgb(150, 150, 150);
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+    padding: 2px;
+    box-shadow: 15px 20px 35px 20px inset rgb(255, 0, 242);
+}
+
+
+.name {
+    display: flex;
+    font-family: sans-serif;
+    top: 0;
+    margin-top: -5px;
+}
+
+.name li {
+    margin-left: 36px;
+}
+
+.name li:nth-child(1) {
+    margin-left: 12px;
+}
+
+.name li:nth-child(2) {
+    margin-left: 26px;
+}
+
+.name li:nth-child(3) {
+    margin-left: 28px;
+}
+
+.name li:nth-child(4) {
+    margin-left: 32px;
+}
+
+
+/* postsssss */
+
+.wtop {
+    width: 480px;
+    height: 75px;
+    position: relative;
+    /* border-top: 0.1px solid rgb(174, 174, 174); */
+    box-shadow: 2px 1px 7px -1px rgb(220 220 220);
+}
+
+.wtop .top-info {
+    display: flex;
+    list-style-type: none;
+}
+
+.small-avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: 2px;
+    border: solid 1.6px rgb(185, 45, 236);
+    margin-left: 7px;
+}
+
+.wtop .top-info li ul {
+    list-style-type: none;
+    margin-left: 1.1rem;
+    margin-top: 1.6rem;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 50;
+}
+
+#small {
+    font-size: 14px;
+}
+
+.wtop .top-info li .fas {
+    float: right;
+    margin-left: 15rem;
+    margin-top: 1.6rem;
+    font-size: x-large;
+
+}
+
+
+
+/* .fa-heart {
+    color: red;
+    box-sizing: border-box;
+
+} */
+
+/* post sarlavha tamom */
+
+
+.pasts {
+    width: 479.5px;
+    height: 479.5px;
+    position: relative;
+}
+
+.postuz {
+    width: 480px;
+    height: 410px;
+    margin-top: 1px;
+
+}
+
+/* rsam the end */
+
+.like-comment {
+    width: 480px;
+    height: 75px;
+    position: relative;
+}
+
+.like-comment .comment {
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+.like-comment .comment li {
+    margin: 5px;
+    font-size: x-large;
+    display: inline;
+    margin-top: -10px;
+}
+
+.comment .rt {
+    float: right;
+    margin-left: 12rem;
+    font-size: x-large;
+    display: inline;
+    margin-top: -0.5rem
+}
+
+/* the end comment */
+
+/* menu */
+
+.menu {
+    display: flex;
+    width: 480px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 1px 7px -1px rgb(220 220 220);
+    position: sticky;
+    z-index: 2;
+    position: sticky;
+    bottom: 0;
+}
+
+.menu .menu-ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+    z-index: 2;
+    position: sticky;
+
+}
+
+.menu .menu-ul li {
+    margin: 10px;
+    margin-left: 20px;
+    z-index: 2;
+    position: sticky;
+}
+
+.menu .menu-ul .fas,
+.far {
+    font-size: xx-large;
+    margin: 15px;
+    margin-left: 55px;
+    margin-top: 25px;
+    z-index: 2;
+    position: sticky;
+}
+
+.menu .menu-ul .fas,
+.far:nth-child(1) {
+    margin-left: 15px;
+    z-index: 2;
+    position: sticky;
+}
+
+
+.menu .menu-ul .fas,
+.far:nth-child(2) {
+    margin-left: 5px;
+    z-index: 2;
+    position: sticky;
+}
+
+.menu .menu-ul .fas,
+.far:nth-child(3) {
+    margin-left: 105px;
+    z-index: 2;
+    position: sticky;
+}
+
+.menu .menu-ul .fas,
+.far:nth-child(4) {
+    margin-left: 1px;
+    z-index: 2;
+    position: sticky;
+}
+
+
+.small-a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 12px;
+    border: solid 1.6px rgb(185, 45, 236);
+    margin-left: 7px;
+    float: right;
+    position: relative;
+    margin-left: 1.6rem;
+    display: inline;
+    z-index: 2;
+
+    position: sticky;
+}
